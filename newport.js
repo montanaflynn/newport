@@ -17,6 +17,8 @@ module.exports = function(port, cb) {
       throw new Error("Missing callback function")
     }
 
+  } else {
+      throw new Error("Missing port and callback function")
   }
 
   // Create a server object that we can get

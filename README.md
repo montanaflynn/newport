@@ -1,19 +1,19 @@
 # Newport [![Build Status][build-img]][build-url] [![Coverage Status][coverage-img]][coverage-url] [![Version][version-img]][version-url] [![License][license-img]][license-url]
 
-Find a new port that's available to be used in your program.
+Find a new port that's available to be used in your program. 
 
-## Install
+### Install
 
 ```sh
 $ npm install newport
 ```
 
-## Usage
+### Usage
 
 ```js
 var newport = require('newport')
 
-// Get a new port that's available
+// Get a new port that is available
 newport(function(err, port){
   if (err) throw err
   console.log(port)
@@ -26,11 +26,11 @@ newport(8080, function(err, port){
 })
 ```
 
-## License
+### License
 
 The MIT License
 
-Copyright (c) 2015 Montana Flynn <montana@montanaflynn.me>
+Copyright (c) 2015 Montana Flynn http://anonfunction.com
 
 [build-img]: https://travis-ci.org/montanaflynn/newport.svg?branch=master
 [build-url]: https://travis-ci.org/montanaflynn/newport

@@ -40,6 +40,18 @@ describe('a new port', function () {
 
 describe('an existing port', function () {
 
+  it('should return the port number if it is available', function (done) {
+    newport(8080, function(err, port) {
+      assert(typeof port === 'number')
+      assert(port === 8080)
+      done()
+    })
+  })
+
+})
+
+describe('throwing errors', function () {
+
   it('should throw an error if the port is already in use', function (done) {
     newport(4444, function(err, port) {
       assert(err.code === 'EADDRINUSE')
@@ -59,12 +71,9 @@ describe('an existing port', function () {
     done()
   })
 
-  it('should return the port number if it is available', function (done) {
-    newport(8080, function(err, port) {
-      assert(typeof port === 'number')
-      assert(port === 8080)
-      done()
-    })
+  it('should throw an error if the port and callback is missing', function (done) {
+    assert.throws(function() { newport() }, Error, "Missing port and callback function");
+    done()
   })
 
 })
