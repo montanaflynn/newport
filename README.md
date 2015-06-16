@@ -13,7 +13,7 @@ $ npm install --save newport
 ```js
 var newport = require('newport');
 
-newport(function(port, err){
+newport(function(err, port){
   if (err) throw err
   console.log(port)
 });
