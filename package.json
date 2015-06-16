@@ -1,0 +1,24 @@
+{
+  "name": "newport",
+  "version": "0.0.1",
+  "description": "Find an open port",
+  "author": {
+    "name": "Montana Flynn",
+    "email": "montana@montanaflynn.me",
+    "url": "http://anonfunction.com"
+  },
+  "repository": "montanaflynn/newport",
+  "license": "MIT",
+  "files": [
+    "newport.js"
+  ],
+  "keywords": [
+    "newport",
+    "port",
+    "new",
+    "free",
+    "open",
+    "unused",
+    "socket"
+  ]
+}
