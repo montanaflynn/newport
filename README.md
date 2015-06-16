@@ -39,7 +39,7 @@ Copyright (c) 2015 Montana Flynn <montana@montanaflynn.me>
 [coverage-url]: https://coveralls.io/r/montanaflynn/newport
 
 [license-img]: https://img.shields.io/npm/l/newport.svg
-[license-url]: https://img.shields.io/npm/v/newport.svg
+[license-url]: https://github.com/montanaflynn/newport/blob/master/LICENSE
 
 [version-img]: https://img.shields.io/npm/v/newport.svg
-[version-url]: https://img.shields.io/npm/v/newport.svg
+[version-url]: https://www.npmjs.com/package/newport
