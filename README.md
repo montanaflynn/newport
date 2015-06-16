@@ -11,12 +11,12 @@ $ npm install --save newport
 ## Usage
 
 ```js
-var newport = require('newport');
+var newport = require('newport')
 
 newport(function(err, port){
   if (err) throw err
   console.log(port)
-});
+})
 ```
 
 ## License
