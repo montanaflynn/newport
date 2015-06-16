@@ -13,7 +13,14 @@ $ npm install newport
 ```js
 var newport = require('newport')
 
+// Get a new port that's available
 newport(function(err, port){
+  if (err) throw err
+  console.log(port)
+})
+
+// Check if a port is available
+newport(8080, function(err, port){
   if (err) throw err
   console.log(port)
 })
