@@ -20,5 +20,6 @@
     "open",
     "unused",
     "socket"
-  ]
+  ],
+  "dependencies": {}
 }
