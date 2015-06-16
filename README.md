@@ -1,11 +1,11 @@
-# Newport [![NPM version][npm-image]][npm-url]
+# Newport [![Build Status][build-img]][build-url] [![Coverage Status][coverage-img]][coverage-url] [![Version][version-img]][version-url] [![License][license-img]][license-url]
 
-Finds a new open port to use! 
+Find a new port that's available to be used in your program.
 
 ## Install
 
 ```sh
-$ npm install --save newport
+$ npm install newport
 ```
 
 ## Usage
@@ -21,7 +21,18 @@ newport(function(err, port){
 
 ## License
 
-MIT © [Montana Flynn](http://anonfunction.com)
+The MIT License
 
-[npm-image]: https://badge.fury.io/js/newport.svg
-[npm-url]: https://npmjs.org/package/newport
+Copyright (c) 2015 Montana Flynn <montana@montanaflynn.me>
+
+[build-img]: https://travis-ci.org/montanaflynn/newport.svg?branch=master
+[build-url]: https://travis-ci.org/montanaflynn/newport
+
+[coverage-img]: https://coveralls.io/repos/montanaflynn/newport/badge.svg
+[coverage-url]: https://coveralls.io/r/montanaflynn/newport
+
+[license-img]: https://img.shields.io/npm/l/newport.svg
+[license-url]: https://img.shields.io/npm/v/newport.svg
+
+[version-img]: https://img.shields.io/npm/v/newport.svg
+[version-url]: https://img.shields.io/npm/v/newport.svg
