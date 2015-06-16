@@ -1,6 +1,6 @@
 {
   "name": "newport",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Find an open port",
   "author": {
     "name": "Montana Flynn",
@@ -9,17 +9,13 @@
   },
   "repository": "montanaflynn/newport",
   "license": "MIT",
-  "files": [
-    "newport.js"
-  ],
+  "main": "newport.js",
   "keywords": [
-    "newport",
     "port",
     "new",
     "free",
     "open",
     "unused",
     "socket"
-  ],
-  "dependencies": {}
+  ]
 }
